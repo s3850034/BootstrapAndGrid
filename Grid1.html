@@ -17,7 +17,7 @@
 
 <body class="d-flex flex-column h-100">
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Bootstrap Grids</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -59,12 +59,26 @@
             </ul>
         </div>
     </div>
-</nav>
+    </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
+       <div class="container h-100 minHeight">
+           <div class="row row-cols-1 row-cols-md-2 gy-2 h-100">
+               <div class="col">
+                   <div class="bg-dark text-light h-100 p-2">
+                        <h1>COL ONE</h1>
+                        <p>Lorem ipsum dolor sit amet. Sed repellendus laudantium ut reprehenderit aperiam sit alias mollitia sit blanditiis eveniet qui praesentium commodi. Ad deleniti enim est consequatur quaerat <em>At soluta</em>. </p><p>Non numquam delectus aut modi molestiae qui reprehenderit temporibus et eligendi sunt. Cum omnis deleniti ut labore  ut impedit iure a incidunt  ea aliquam eius ut laudantium quia. Et asperiores minima <em>Eum officia est culpa optio vel nobis minima</em> qui neque iusto. Et minima eligendi ut culpa blanditiis qui consectetur numquam? </p><p>Sit inventore veritatis <em>Nam aliquid</em> non deleniti tempore? Et saepe similique vel repellendus ipsa <strong>Id voluptatem 33 dignissimos distinctio sed commodi ipsum eum esse mollitia</strong>. </p>
+                   </div>
+               </div>
+               <div class="col">
+                   <div class="bg-secondary text-light h-100 p-2">
+                        <h1>COL TWO </h1>
+                   </div>
+               </div>
+           </div>
        </div>
     </main>
+
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-white">Bootstrap And Grid By Muhib Hasan</span>
